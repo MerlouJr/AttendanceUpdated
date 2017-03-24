@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "579557835405",
+    "firebase_url": "https://attendanceapp-d5b2d.firebaseio.com",
+    "project_id": "attendanceapp-d5b2d",
+    "storage_bucket": "attendanceapp-d5b2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579557835405:android:293c071162f12690",
+        "android_client_info": {
+          "package_name": "com.example.cosain.attendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579557835405-lgt9ob4dah76368ahalik24m31kpl4ov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cosain.attendanceapp",
+            "certificate_hash": "b331153697960ef634fd9b937ee3d214477bdd9c"
+          }
+        },
+        {
+          "client_id": "579557835405-9mhshe64achpgjffu5j28vesjin3bdb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjYNuCSGC60M-_seAbkP1s0RTNZ4y4o4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579557835405-9mhshe64achpgjffu5j28vesjin3bdb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579557835405:android:cdd4ffff693bef75",
+        "android_client_info": {
+          "package_name": "com.example.cosain.attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579557835405-v4skhm2q99pg8qj7oj36080on9p7l2bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cosain.attendance",
+            "certificate_hash": "b331153697960ef634fd9b937ee3d214477bdd9c"
+          }
+        },
+        {
+          "client_id": "579557835405-9mhshe64achpgjffu5j28vesjin3bdb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjYNuCSGC60M-_seAbkP1s0RTNZ4y4o4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579557835405-9mhshe64achpgjffu5j28vesjin3bdb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

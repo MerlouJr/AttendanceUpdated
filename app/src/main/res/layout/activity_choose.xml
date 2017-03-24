@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cosain.attendance.Choose"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="267dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/attendance"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/choiceMessage"
+        android:text="Message"
+        android:textColor="#FF1938"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8459E"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"   />
+
+    <Button
+        android:id="@+id/choiceAttendance"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#A8459E"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Attendance"
+        android:textColor="#FF1938"
+        android:textSize="15sp" />
+</LinearLayout>

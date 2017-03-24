@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context="com.example.cosain.attendance.Attendance"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#A8459E"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Back"
+        android:textColor="#FF1938"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="No users found!"
+        android:id="@+id/noUsersAtt"
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:text="Legends:"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:background="#00ff00"
+            android:layout_marginLeft="10dp">
+        </LinearLayout>
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:text="Present"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:background="#ffff00">
+        </LinearLayout>
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Late"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:background="#ff0000"
+            android:layout_marginLeft="-20dp">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Absent"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/usersAtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="65dp" />
+</LinearLayout>
+
+
